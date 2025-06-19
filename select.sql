@@ -188,5 +188,9 @@ VALUES (
         'AB+',
         'United States'
     );
-  
-SELECT * FROM students
+
+SELECT * FROM students;
+SELECT * FROM students LIMIT 5 OFFSET 5 * 1;
+DELETE FROM students;
+
+UPDATE students SET grade = 'A' WHERE student_id = 1;
